@@ -11,7 +11,7 @@ License: GPL
 Group: File tools
 Url: https://sourceforge.net/projects/dz3d/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-BuildRequires: libMesaglut-devel, glib2-devel
+BuildRequires: mesaglut-devel, glib2-devel
 
 %description
 3dFB is a 3d File Manager. 2d file managers work nicely, but with 3d you
