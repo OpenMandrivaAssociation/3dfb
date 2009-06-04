@@ -1,12 +1,13 @@
 %define name 3dfb
-%define version 0.5.6
-%define release %mkrel 3
+%define version 0.6.1
+%define release %mkrel 1
 
 Summary: 3dFB is a 3d File Manager
 Name: %{name}
 Version: %{version}
 Release: %{release}
-Source0: %{name}-%{version}.tar.bz2
+Source0: http://freefr.dl.sourceforge.net/sourceforge/dz3d/%{name}-%{version}.tar.gz
+Patch0: 3dfb-0.6.1-gcc41.patch
 License: GPL
 Group: File tools
 Url: https://sourceforge.net/projects/dz3d/
@@ -21,14 +22,15 @@ actually be usable.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
-%configure
+%configure2_5x
 %make
 
 %install
 rm -rf $RPM_BUILD_ROOT
-%makeinstall
+%makeinstall_std
 
 %clean
 rm -rf $RPM_BUILD_ROOT
