@@ -1,6 +1,6 @@
 %define name 3dfb
 %define version 0.6.1
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary: 3dFB is a 3d File Manager
 Name: %{name}
