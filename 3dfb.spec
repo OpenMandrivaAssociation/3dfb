@@ -2,7 +2,7 @@
 %define version 0.6.1
 %define release 2
 
-Summary: 3dFB is a 3d File Manager
+Summary: 3d File Manager
 Name: %{name}
 Version: %{version}
 Release: %{release}
