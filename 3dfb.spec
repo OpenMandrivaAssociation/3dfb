@@ -1,6 +1,6 @@
 %define name 3dfb
 %define version 0.6.1
-%define release 2
+%define release  3
 
 Summary: 3d File Manager
 Name: %{name}
@@ -34,7 +34,6 @@ actually be usable.
 
 
 %files
-%defattr(-,root,root)
 %doc AUTHORS COPYING ChangeLog INSTALL NEWS PROGRAMMER.README README WISHLIST
 %{_bindir}/%name
 
