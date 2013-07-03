@@ -1,11 +1,7 @@
-%define name 3dfb
-%define version 0.6.1
-%define release  3
-
 Summary: 3d File Manager
-Name: %{name}
-Version: %{version}
-Release: %{release}
+Name:    3dfb
+Version: 0.6.1
+Release: 3
 Source0: http://freefr.dl.sourceforge.net/sourceforge/dz3d/%{name}-%{version}.tar.gz
 Patch0: 3dfb-0.6.1-gcc41.patch
 License: GPL
