@@ -7,6 +7,11 @@ Patch0: 3dfb-0.6.1-gcc41.patch
 License: GPL
 Group: File tools
 Url: https://sourceforge.net/projects/dz3d/
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: pkgconfig(glut)
 BuildRequires: pkgconfig(glib-2.0)
 BuildRequires: pkgconfig(xmu)
